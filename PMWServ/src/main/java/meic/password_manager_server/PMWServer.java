@@ -13,7 +13,7 @@ public class PMWServer implements PMWServer_Interface  {
 	Hashtable<Key, Hashtable> _users;
 	Hashtable<String, String> _passes;
 	
-	private PMWServer(){
+	public PMWServer(){
 		_users = new Hashtable<Key, Hashtable>();
 	}
 	

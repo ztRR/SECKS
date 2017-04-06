@@ -7,9 +7,9 @@ import javax.jws.*;
 @WebService
 public interface PWMLibrary {
 	
-	 @WebMethod void init(KeyStore ks) throws Exception;
+	 @WebMethod void init(KeyStore k,char[] pass) throws Exception;
 	 @WebMethod void register_user();
-	 @WebMethod byte[] save_password(byte[] domain, byte[] username, byte[] password);
+	 @WebMethod void save_password(byte[] domain, byte[] username, byte[] password);
 	 @WebMethod byte[] retrieve_password(Key publicKey, byte[] domain, byte[] username);
 	 
 	

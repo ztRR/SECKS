@@ -1,4 +1,4 @@
-package meic.sec;
+package meic.password_manager_client;
 
 import sun.security.x509.X509CertInfo;
 
